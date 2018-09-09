@@ -6,12 +6,11 @@ body {
     list-style-type: none;
    padding: 0;
    margin: 0;
-    position: absolute;
+    position:fixed;
       top: 2em;
       left: 1em;
       width: 9em }
-h1 {
-    font-family: Helvetica, Geneva, Arial,
+h1 {font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
   ul.navbar a{text-decoration: none}
   a:link{color:blue}
@@ -27,3 +26,7 @@ h1 {
    color: blue }
  a:visited {
    color: purple }
+
+#box
+{color:red;
+font-style: italic;}
